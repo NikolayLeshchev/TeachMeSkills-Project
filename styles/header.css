@@ -1,0 +1,33 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navigation__list {
+  display: flex;
+}
+
+.navigation__list-item {
+  margin-left: 40px;
+}
+
+.navigation__list-item a {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: coral;
+}
