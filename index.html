@@ -15,13 +15,13 @@
           <nav class="navigation">
             <ul class="navigation__list">
               <li class="navigation__list-item">
-                <a href="#">Главная</a>
+                <a href="#main">Главная</a>
               </li>
               <li class="navigation__list-item">
-                <a href="#">О нас</a>
+                <a href="#about">О&nbsp;нас</a>
               </li>
               <li class="navigation__list-item">
-                <a href="#">Команда</a>
+                <a href="#team">Команда</a>
               </li>
               <li class="navigation__list-item">
                 <a href="#">Тарифы</a>
@@ -34,7 +34,7 @@
         </div>
       </div>
     </header>
-    <section class="main__screen">
+    <section class="main__screen" id="main">
       <div class="container">
         <div class="wrap">
           <h1 class="main__title" id="main__title">
@@ -42,6 +42,97 @@
             бизнеса
           </h1>
           <button class="btn">Узнать подробнее</button>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__wrap">
+          <div class="about__wrap-img">
+            <img src="./about_us.avif" alt="about us" />
+          </div>
+          <div class="about__wrap-text">
+            <h2 class="title" id="about__title">Что мы предлагаем</h2>
+            <div class="about__wrap-description">
+              <p>
+                Мы предлагаем профессиональную разработку сайтов и прочих
+                приложений в любой точке мира. Не важно, на каком языке Вы
+                говорите. Только за 2020 год наши специалисты реализовали
+                проекты в более, чем 30 тематиках.
+              </p>
+              <p>
+                В разработке делаем упор на желание Клиента и отталкиваемся от
+                прибыли, которую он получит после запуска. Создаём не просто
+                сайт, а бизнес.
+              </p>
+              <p>Вы нам верите? Значит, мы точно подружимся.</p>
+            </div>
+            <a href="#">Узнать больше</a>
+          </div>
+        </div>
+        <div class="about__social">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram-square"></i>
+        </div>
+      </div>
+    </section>
+    <section class="team" id="team">
+      <div class="container">
+        <h2 class="title">Команда</h2>
+        <div class="team__wrap">
+          <ul class="team__list">
+            <li class="team__list-item">
+              <div class="wrap__card">
+                <h3>PM</h3>
+                <div class="team__wrap-img">
+                  <img
+                    src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                    alt=""
+                  />
+                </div>
+                <p class="team_name">Дарья Мороз</p>
+                <p class="team__description">
+                  Это человек, который отвечает за все процессы ведения и
+                  успешного завершения проекта. Глава нашей команды.
+                </p>
+              </div>
+            </li>
+            <li class="team__list-item">
+              <div class="wrap__card">
+                <h3>Dev</h3>
+                <div class="team__wrap-img">
+                  <img
+                    src="https://images.unsplash.com/photo-1481824429379-07aa5e5b0739?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=396&q=80"
+                    alt=""
+                  />
+                </div>
+                <p class="team_name">Евгения Котина</p>
+                <p class="team__description">
+                  Занимается разработкой костяка веб-страницы, подключает
+                  скрипты, определяет элементы сайта. Создаёт сервисы, полностью
+                  покрывающие требования, в нашей компании.
+                </p>
+              </div>
+            </li>
+            <li class="team__list-item">
+              <div class="wrap__card">
+                <h3>UX/UI</h3>
+                <div class="team__wrap-img">
+                  <img
+                    src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=389&q=80"
+                    alt=""
+                  />
+                </div>
+                <p class="team_name">Александра Дым</p>
+                <p class="team__description">
+                  Отвечает за то, как интерфейс выглядит и работает. На сколько
+                  продуманной будет навигация по вашему продукту и как быстро
+                  потенциальный заказчик сможет принять решение.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
