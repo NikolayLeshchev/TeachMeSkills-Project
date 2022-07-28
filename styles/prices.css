@@ -1,0 +1,79 @@
+.prices {
+  background-color: #fafafa;
+  padding-bottom: 30px;
+}
+
+.prices__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price__card {
+  box-shadow: 0px 0px 7px 0px #a5a5a5;
+  border-radius: 5%;
+  width: 300px;
+  height: 580px;
+  background-color: #fff;
+  transition: 1s;
+}
+.price__card:hover {
+  transform: scale(1.05);
+}
+.wrap_price__card-img {
+  text-align: center;
+  margin: 40px 0;
+}
+.tariff_name {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.advantages_list {
+  text-align: center;
+}
+.advantages_list-item {
+  line-height: 24px;
+}
+.advantages_list-item::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  color: coral;
+  margin-right: 10px;
+}
+.price {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  color: cornflowerblue;
+}
+.price__btn {
+  border-radius: 20px;
+  padding: 10px 50px;
+  margin: 20px auto 10px auto;
+  display: block;
+  cursor: pointer;
+  color: coral;
+  border: 1.5px solid coral;
+  background-color: #fff;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.price__btn:hover {
+  color: #fff;
+  border-color: coral;
+  background-color: coral;
+}
+.price__card-footer {
+  margin-top: auto;
+}
+.fa-solid {
+  color: coral;
+  font-size: 70px;
+}
+
+.premium {
+  border: 1.7px solid coral;
+}

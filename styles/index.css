@@ -3,6 +3,9 @@
 @import url("./main_screen.css");
 @import url("./about.css");
 @import url("./team.css");
+@import url("./tabs_section.css");
+@import url("./prices.css");
+@import url("./footer.css");
 
 * {
   margin: 0;

@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   background-color: #fff;
-  padding: 15px 0;
+  padding: 5px 0;
   border-bottom: 1px solid rgb(229, 229, 229);
   z-index: 5;
 }
@@ -13,10 +13,17 @@
   align-items: center;
 }
 
-.logo {
+.logo a {
   font-size: 4rem;
   text-transform: uppercase;
   font-weight: 600;
+  transition: 0.5s;
+  cursor: pointer;
+  color: rgb(51, 51, 51);
+}
+
+.logo a:hover {
+  color: coral;
 }
 
 .navigation__list {
@@ -24,11 +31,17 @@
 }
 
 .navigation__list-item {
+  cursor: pointer;
   margin-left: 40px;
+}
+
+.navigation__list-item a:hover {
+  color: rgb(51, 51, 51);
 }
 
 .navigation__list-item a {
   text-transform: uppercase;
   font-size: 1.5rem;
   color: coral;
+  transition: 0.7s;
 }
