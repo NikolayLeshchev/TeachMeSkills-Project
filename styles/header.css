@@ -25,9 +25,13 @@
 .logo a:hover {
   color: coral;
 }
+/* .navigation {
+  width: 100%;
+} */
 
 .navigation__list {
   display: flex;
+  /* width: 100%; */
 }
 
 .navigation__list-item {

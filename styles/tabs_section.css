@@ -15,6 +15,14 @@
   margin-left: -2px;
   text-align: center;
 }
+
+.first {
+  border-radius: 25px 0px 0px 0px;
+}
+
+.last {
+  border-radius: 0px 25px 0px 0px;
+}
 .tabs_item:first-child {
   margin-left: 0;
 }

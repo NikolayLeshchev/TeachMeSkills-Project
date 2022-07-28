@@ -1,6 +1,6 @@
 .prices {
   background-color: #fafafa;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .prices__wrap {
@@ -10,11 +10,13 @@
 }
 .price__card {
   box-shadow: 0px 0px 7px 0px #a5a5a5;
-  border-radius: 5%;
+  border-radius: 20px;
   width: 300px;
-  height: 580px;
+  height: 650px;
   background-color: #fff;
   transition: 1s;
+  padding: 10px;
+  position: relative;
 }
 .price__card:hover {
   transform: scale(1.05);
@@ -45,14 +47,14 @@
 .price {
   width: 100%;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
   font-size: 24px;
   color: cornflowerblue;
 }
 .price__btn {
   border-radius: 20px;
   padding: 10px 50px;
-  margin: 20px auto 10px auto;
+  margin: 20px auto 20px auto;
   display: block;
   cursor: pointer;
   color: coral;
@@ -67,7 +69,10 @@
   background-color: coral;
 }
 .price__card-footer {
-  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-left: -10px;
 }
 .fa-solid {
   color: coral;

@@ -40,9 +40,11 @@
   text-transform: uppercase;
   text-align: right;
   display: block;
-  margin-top: 20px;
+  margin-top: 40px;
 }
-
+#about__title {
+  padding-top: 30px;
+}
 #about__title::after {
   content: "";
   width: 20%;
@@ -62,7 +64,7 @@
 .about__social {
   margin-top: 40px;
 }
-.about__social * {
+.about__social i {
   font-size: 28px;
   color: coral;
   margin-right: 20px;
